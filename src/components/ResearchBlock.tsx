@@ -100,7 +100,7 @@ export default function ResearchBlock() {
             className="flex items-center gap-2 text-sm text-slate-400 justify-center"
           >
             <BookOpen className="w-4 h-4" />
-            <span>Solar Decathlon India — Technical Documentation 2025</span>
+            <span>Solar Decathlon India — Technical Documentation 2025-26</span>
           </motion.div>
         </div>
       </div>

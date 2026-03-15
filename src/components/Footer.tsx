@@ -21,7 +21,7 @@ export default function Footer() {
               sustainability education.
             </p>
             <p className="text-xs text-slate-500">
-              Built for Solar Decathlon India 2025
+              Built for Solar Decathlon India 2025-26
             </p>
           </div>
 

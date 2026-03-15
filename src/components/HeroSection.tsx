@@ -71,6 +71,7 @@ export default function HeroSection() {
           transition={{ duration: 1, delay: 0.3 }}
           className="max-w-5xl mx-auto"
         >
+
           {/* Badge */}
           <motion.div
             initial={{ opacity: 0, scale: 0.8 }}
@@ -80,9 +81,18 @@ export default function HeroSection() {
           >
             <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
             <span className="text-sm font-medium text-white/90">
-              Solar Decathlon India 2025
+              Solar Decathlon India 2025-26
             </span>
           </motion.div>
+          {/* Team Name */}
+          <motion.p
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            className="text-emerald-400 font-bold tracking-[0.3em] text-xs sm:text-sm mb-3 uppercase"
+          >
+            Team SANKALP presents
+          </motion.p>
 
           {/* Headline */}
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-white leading-[1.1] tracking-tight mb-6">
